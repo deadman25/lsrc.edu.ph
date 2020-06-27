@@ -1,0 +1,102 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/templates/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+section{
+  padding: 150px 0px;
+  color: #353b48;
+}
+
+#home{
+  padding: 0px 0px;
+  margin-top:85px;
+}
+
+#secondary-nav{
+    padding:0;
+    text-decoration: none;
+}
+
+
+
+#contact small{
+  font-family:raleway;
+  font-weight: bold;
+}
+
+#contact small{
+  font-family:raleway;
+  font-weight: bold;
+}
+
+
+#college{
+  margin-top: -100px;
+}
+
+#stem{
+  margin-top: -100px;
+}
+
+#requirements{
+  margin-top: -100px;
+}
+}
+
+.line-spacing{
+  line-height: .5;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom:0;
+  left: 20px;
+}
+
+.item{
+  width: 100%;
+  height:38px;
+}
+
+.item a{
+  text-decoration: none;
+  color: #1e272e;
+  font-size: 12px;
+  font-weight: Bolder than 200, lighter than 400;
+  text-transform: uppercase;
+}
+
+.item a:after{
+  display:block;
+  content: '';
+  border-bottom: 5px solid #192a56;
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+.item a:hover:after { transform: scaleX(1); }
+
+.nav-owl{
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+    color: #2C3A47 ;
+}
+
+.link-disabled a{
+  color: #95afc0;
+  cursor: not-allowed;
+}
+
+.sticky {
+  position: fixed;
+  margin-top: 85px;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.sticky + #mainNav {
+  padding-top: 100px;
+}

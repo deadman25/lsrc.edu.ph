@@ -1,0 +1,20 @@
+{
+  "name": "lsrc.edu",
+  "version": "1.0.0",
+  "description": "dynamic no back end website ",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://deadman25.github.io/lsrc.edu.ph",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^3.1.0",
+    "jquery": "^3.5.1",
+    "nodemon": "^2.0.4"
+  }
+}
