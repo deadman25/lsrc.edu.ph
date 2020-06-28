@@ -4,6 +4,7 @@ const port = 3000
 const path = require('path')
 const express = require('express')
 const app = express();
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 app.use(express.static(path.join(__dirname, 'node_modules'))); // npm
